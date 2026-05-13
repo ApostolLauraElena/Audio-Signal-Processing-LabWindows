@@ -1,0 +1,15 @@
+[OnAcquisitionPanelCB]
+Class="Function"
+Prototype="int OnAcquisitionPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\apd-p\SwitchPanels\Acquisition.c:30:17"
+
+[OnTimer]
+Class="Function"
+Prototype="int OnTimer(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\apd-p\SwitchPanels\Acquisition.c:42:17"
+
+[OnStart]
+Class="Function"
+Prototype="int OnStart(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\apd-p\SwitchPanels\Acquisition.c:187:17"
+

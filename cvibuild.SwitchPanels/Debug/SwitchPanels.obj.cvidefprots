@@ -1,0 +1,60 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="d:\apd-p\SwitchPanels\SwitchPanels.c:64:5"
+
+[OnWavePanelCB]
+Class="Function"
+Prototype="int OnWavePanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\apd-p\SwitchPanels\SwitchPanels.c:92:17"
+
+[OnSwitchPanelCB]
+Class="Function"
+Prototype="int OnSwitchPanelCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\apd-p\SwitchPanels\SwitchPanels.c:100:17"
+
+[OnLoadButtonCB]
+Class="Function"
+Prototype="int OnLoadButtonCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\apd-p\SwitchPanels\SwitchPanels.c:123:17"
+
+[mediere]
+Class="Function"
+Prototype="void mediere(double *signal, double *filtered, int length, int dimensiune);"
+SourceLocation="d:\apd-p\SwitchPanels\SwitchPanels.c:220:6"
+
+[ordin1]
+Class="Function"
+Prototype="void ordin1(double *signal, double *filtered, int length, double alpha);"
+SourceLocation="d:\apd-p\SwitchPanels\SwitchPanels.c:240:6"
+
+[OnApplyButtonCB]
+Class="Function"
+Prototype="int OnApplyButtonCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\apd-p\SwitchPanels\SwitchPanels.c:250:17"
+
+[OnNextButton]
+Class="Function"
+Prototype="int OnNextButton(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\apd-p\SwitchPanels\SwitchPanels.c:297:17"
+
+[OnPrevButton]
+Class="Function"
+Prototype="int OnPrevButton(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\apd-p\SwitchPanels\SwitchPanels.c:348:17"
+
+[OnBinarySwitch]
+Class="Function"
+Prototype="int OnBinarySwitch(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\apd-p\SwitchPanels\SwitchPanels.c:395:17"
+
+[OnAnvelopaButton]
+Class="Function"
+Prototype="int OnAnvelopaButton(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\apd-p\SwitchPanels\SwitchPanels.c:468:17"
+
+[OnDerivataButton]
+Class="Function"
+Prototype="int OnDerivataButton(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\apd-p\SwitchPanels\SwitchPanels.c:488:17"
+
